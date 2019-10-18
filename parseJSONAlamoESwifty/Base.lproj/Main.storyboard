@@ -33,8 +33,8 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="BpN-7Q-cx8" id="xr6-g3-CyP"/>
-                            <outlet property="delegate" destination="BpN-7Q-cx8" id="Fay-Hh-7VE"/>
+                            <outlet property="dataSource" destination="BpN-7Q-cx8" id="w5r-SK-ZmC"/>
+                            <outlet property="delegate" destination="BpN-7Q-cx8" id="Qv9-jc-hIz"/>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Filmes" id="9JQ-Iv-f38"/>

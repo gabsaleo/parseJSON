@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		A1911D6F23575F00001DECBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1911D6D23575F00001DECBA /* Main.storyboard */; };
 		A1911D7123575F02001DECBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1911D7023575F02001DECBA /* Assets.xcassets */; };
 		A1911D7423575F02001DECBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1911D7223575F02001DECBA /* LaunchScreen.storyboard */; };
+		A1F9F0DD235A2B83003E8C64 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F9F0DC235A2B83003E8C64 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		A1911D7023575F02001DECBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1911D7323575F02001DECBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1911D7523575F02001DECBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F9F0DC235A2B83003E8C64 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		A2041FEC897A652B20899AF0 /* Pods-parseJSONAlamoESwifty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseJSONAlamoESwifty.release.xcconfig"; path = "Target Support Files/Pods-parseJSONAlamoESwifty/Pods-parseJSONAlamoESwifty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				91C43EDBE44C169B483AF600 /* Pods-parseJSONAlamoESwifty.debug.xcconfig */,
 				A2041FEC897A652B20899AF0 /* Pods-parseJSONAlamoESwifty.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				A1911D7023575F02001DECBA /* Assets.xcassets */,
 				A1911D7223575F02001DECBA /* LaunchScreen.storyboard */,
 				A1911D7523575F02001DECBA /* Info.plist */,
+				A1F9F0DC235A2B83003E8C64 /* Movie.swift */,
 			);
 			path = parseJSONAlamoESwifty;
 			sourceTree = "<group>";
@@ -209,6 +211,7 @@
 			files = (
 				A1911D6C23575F00001DECBA /* ViewController.swift in Sources */,
 				A1911D6823575F00001DECBA /* AppDelegate.swift in Sources */,
+				A1F9F0DD235A2B83003E8C64 /* Movie.swift in Sources */,
 				A1911D6A23575F00001DECBA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
