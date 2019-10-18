@@ -36,6 +36,11 @@ class Movie:Codable{
 class Movies:Codable{
     var Search: [Movie]
     
+// enum CodingKeys: String, CodingKey {
+//    case Search = "Search"
+//}
+//
+//
     init(Search : [Movie]) {
         self.Search = Search
     }
